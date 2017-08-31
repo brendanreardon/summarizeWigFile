@@ -17,7 +17,7 @@ task summarizeWigFile {
     File wigFile
 
     command {
-        python /home/summarizeWigFile --pairId ${pairId} --wigFile ${wigFile}
+        python /home/summarizeWigFile.py --pairId ${pairId} --wigFile ${wigFile}
     }
 
     output {
