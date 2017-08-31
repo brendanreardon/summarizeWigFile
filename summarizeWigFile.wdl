@@ -26,7 +26,7 @@ task summarizeWigFile {
     }
 
     runtime {
-        docker: "breardon/summarizeWigFile:1.0"
+        docker: "breardon/summarizewigfile:1.0"
         memory: "1 GB"
         cpu: "1"
         disks: "local-disk 2 HDD"

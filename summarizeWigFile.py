@@ -21,7 +21,7 @@ def writeFile(file_, text):
     file.close()
 
 def writeBases(basesCovered, pairId):
-    outfile = pairId + '.somatic_coverage_sumamry.txt'
+    outfile = pairId + '.somatic_coverage_summary.txt'
     writeFile(outfile, str(basesCovered))
 
 basesCovered = countBases(wigFile)
